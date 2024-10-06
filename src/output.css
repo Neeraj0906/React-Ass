@@ -1,0 +1,70 @@
+/* Styling for the Navbar */
+
+.navbar {
+  background-color: #1d4ed8;
+  /* Blue */
+  color: white;
+}
+
+.cart-btn {
+  position: relative;
+}
+
+.cart-count {
+  background-color: #dc2626;
+  /* Red */
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+}
+
+/* Product Card Styling */
+
+.product-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 12rem;
+  width: 100%;
+}
+
+/* Modal Styling */
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  justify-content: space-between;
+}
+
+.remove-btn {
+  background-color: #dc2626;
+  /* Red */
+}
+
+.close-btn {
+  background-color: #1d4ed8;
+  /* Blue */
+}
+
+h1{
+  margin-left: 650px;
+}
+
+button{
+  margin-left: 40px;
+}
