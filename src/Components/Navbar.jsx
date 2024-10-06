@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = ({ cartCount, openCart }) => {
+const NavBar = ({ cartCount, openCart }) => {
   return (
     <nav className="p-4 bg-blue-500 text-white flex justify-between">
       <h1 className="text-xl font-bold">Fake Store</h1>
@@ -14,4 +14,4 @@ const Navbar = ({ cartCount, openCart }) => {
   );
 };
 
-export default Navbar;
+export default NavBar;

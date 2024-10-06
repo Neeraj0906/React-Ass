@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Navbar from "./components/Navbar";
+import NavBar from "./Components/NavBar";
 import ProductList from "./components/ProductList";
 import CartModal from "./components/CartModal";
 import "./App.css";
@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <Navbar cartCount={cartItems.length} openCart={openCart} />
+      <NavBar cartCount={cartItems.length} openCart={openCart} />
       <ProductList products={products} addToCart={addToCart} />
       {isModalOpen && (
         <CartModal
